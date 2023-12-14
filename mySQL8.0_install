@@ -1,0 +1,9 @@
+* Installation von mySQL8.0 im Ubuntu 18.04
+
+wget -c https://dev.mysql.com/get/mysql-apt-config_0.8.11-1_all.deb
+
+dpkg -i mysql-apt-config_0.8.11-1_all.deb
+
+apt-get update
+
+apt-get install mysql-server
